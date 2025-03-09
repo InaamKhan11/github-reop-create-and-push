@@ -37,3 +37,10 @@ First time bash install you need to run this ***2*** commands
 2. git commit -m "***Enter message here***"
 3. git push
 
+---
+
+___
+
+# done
+
+
