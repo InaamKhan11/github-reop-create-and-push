@@ -112,11 +112,13 @@ _____________
 
 ## 11. Push to Remote Repository (GitHub, etc.)
 git push origin <branch-name>
+
 👉 Uploads commits to the remote repository.
 ________________________
 
 ## 12. Pull Latest Changes from Remote
 git pull origin <branch-name>
+
 👉 Updates your local repository with the latest changes from the remote repository.
 ______________________
 
@@ -124,40 +126,48 @@ ______________________
 git reset --hard <commit-id>  # Reset to a previous commit (removes changes permanently)
 git reset --soft <commit-id>  # Reset to a previous commit but keep changes staged  
 git checkout -- <filename>  # Discard changes in a specific file  
+
 👉 Used to undo changes in different ways.
 ______________________
 
 ## 14. Stash Changes (Temporarily Save Uncommitted Changes)
 git stash  
 git stash pop  # Apply stashed changes back  
+
 👉 Saves your uncommitted changes temporarily without committing them.
 ______________________
 
 ## 15. Remove Files from Git
 git rm <filename>  # Remove a file from tracking and delete it  
 git rm --cached <filename>  # Remove from tracking but keep it locally  
+
 👉 Removes files from Git tracking.
 ______________________
 ## 16. Add Remote Repository
 git remote add origin <repo-url>
+
 👉 Links your local repository to a remote one.
 ______________________
 
 ## 17. Check Remote URL
 git remote -v
+
 👉 Shows the remote repository URL.
 ______________________
 
 ## 18. Set Upstream Branch for Pushing
 git push --set-upstream origin <branch-name>
+
 👉 Sets up tracking for a branch, so you don’t have to specify the remote every time.
 ______________________
 
 ## 19. Rename Last Commit (Before Pushing)
 git commit --amend -m "New commit message"
+
 👉 Updates the last commit message.
 ______________________
 
 ## 20. Delete a Git Repository (Be Careful!)
 rm -rf .git
+
 👉 Removes Git tracking from a folder.
