@@ -39,14 +39,36 @@ First time bash install you need to run this ***2*** commands
 
 ## done
 
-############
 
-**************
+-------------------
+-------------------
+-------------------
 
-______________
+# Git Usefull Commands For Beginners
 
--------------
 
-asdfasdf
+## 1. Git Configuration
+git config --global user.name "YourName"
+git config --global user.email "your-email@example.com"
+git config --global --list  # Check current config settings
+
+👉 Sets up your Git username and email globally.
+
+## 2. Initialize a Git Repository
+git init
+
+👉 Initializes a new Git repository in the current folder.
+
+## 3. Clone a Repository
+git clone <repo-url>
+
+👉 Copies a remote repository to your local machine.
+
+## 4. Check Repository Status
+git status
+
+👉 Shows the current state of your working directory (modified, staged, or untracked files).
+
+
 
 
