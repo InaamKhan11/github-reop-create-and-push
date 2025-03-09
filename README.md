@@ -22,7 +22,7 @@ First time bash install you need to run this ***2*** commands
 1. echo "# github-reop-create-and-push" >> README.md  ***(if you want to create readme.md file OPTIONAL)***
 2. git init
 3. git add . ***(if you want to add all file then you can use . or you can type file name)***
-4. git commit -m "first commit"  ***(you can type any thing in comment, this is a reminder, what perpose for push this files and code)***
+4. git commit -m "first commit"  ***(you can type any thing in comment, this is a reminder, what purpose for push this files and code)***
 5. git branch -M main
 6. git remote add origin https://github.com/InaamKhan11/github-reop-create-and-push.git
 7. git push -u origin main
