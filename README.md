@@ -39,5 +39,16 @@ First time bash install you need to run this ***2*** commands
 
 ## done
 
-
 -------------------
+
+# Push Code in a New Branch
+Create a New Branch for Development
+
+1. git checkout -b branchname
+2. git add .
+3. git commit -m "Your commit message"
+4. git push -u origin branchname
+
+## Notes:
+* git checkout -b branchname creates and switches to the new branch.
+* git push -u origin branchname sets upstream so that future git push commands work without specifying the branch.
