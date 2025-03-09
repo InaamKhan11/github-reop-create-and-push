@@ -13,6 +13,9 @@ OR
 ![Screenshot 2025-03-10 000838](https://github.com/user-attachments/assets/77cca758-16cd-4d29-942d-3179a5b80309)
 
 Now open you (Git bash) windows baseed software 
+First time bash install you need to run this ***2*** commands
+1. git config --global user.name InaamKhan11
+2. git config --global user.email inaam1817@gmail.com
 
 # create a new repository on the command line
 
