@@ -3,11 +3,15 @@ Complete details to create and push code
 
 # First create repo in your github account. 
 
-# Quick setup ---if you've done this kind of thing before
+## Quick setup ---if you've done this kind of thing before
 
 ## Select HTTPS link (if you not create readme.md file):
 
 ![as](https://github.com/user-attachments/assets/d1beb0cb-460d-4ca5-9451-dd216313b44a)
+
+OR
+
+![Screenshot 2025-03-10 000838](https://github.com/user-attachments/assets/77cca758-16cd-4d29-942d-3179a5b80309)
 
 Now open you (Git bash) windows baseed software 
 
@@ -20,3 +24,14 @@ Now open you (Git bash) windows baseed software
 5. git branch -M main
 6. git remote add origin https://github.com/InaamKhan11/github-reop-create-and-push.git
 7. git push -u origin main
+
+# Push an existing repository from the command line
+1. git remote add origin https://github.com/InaamKhan11/github-reop-create-and-push.git
+2. git branch -M main
+3. git push -u origin main
+
+# Push updated code in repository you created
+1. git add .
+2. git commit -m "***Enter message here***"
+3. git push
+
